@@ -48,7 +48,7 @@ This project implements a functional RDBMS with the following features:
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/shaymuiruri/pesapal-rdbms-challenge 
 cd pesapal-rdbms-challenge
 ```
 
@@ -225,19 +225,6 @@ This project demonstrates understanding of:
 - Full-stack web development
 - Software architecture and modular design
 
-## 🚧 Future Enhancements
-
-Possible improvements:
-- [ ] More complex WHERE clauses (AND, OR, nested conditions)
-- [ ] ORDER BY and LIMIT clauses
-- [ ] Aggregate functions (COUNT, SUM, AVG, etc.)
-- [ ] LEFT/RIGHT JOIN support
-- [ ] B-tree indexes for range queries
-- [ ] Transaction support with ACID properties
-- [ ] Query optimization and execution plans
-- [ ] Binary storage format for better performance
-- [ ] Multi-user concurrency control
-- [ ] Database backup and restore
 
 ## 📦 Dependencies
 
