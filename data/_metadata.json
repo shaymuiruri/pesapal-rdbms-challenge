@@ -1,0 +1,71 @@
+{
+  "db_name": "todoapp",
+  "tables": {
+    "users": {
+      "name": "users",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "INTEGER",
+          "primary_key": true,
+          "unique": false,
+          "not_null": false
+        },
+        {
+          "name": "name",
+          "data_type": "TEXT",
+          "primary_key": false,
+          "unique": false,
+          "not_null": true
+        },
+        {
+          "name": "email",
+          "data_type": "TEXT",
+          "primary_key": false,
+          "unique": true,
+          "not_null": false
+        }
+      ]
+    },
+    "todos": {
+      "name": "todos",
+      "columns": [
+        {
+          "name": "id",
+          "data_type": "INTEGER",
+          "primary_key": true,
+          "unique": false,
+          "not_null": false
+        },
+        {
+          "name": "title",
+          "data_type": "TEXT",
+          "primary_key": false,
+          "unique": false,
+          "not_null": true
+        },
+        {
+          "name": "description",
+          "data_type": "TEXT",
+          "primary_key": false,
+          "unique": false,
+          "not_null": false
+        },
+        {
+          "name": "completed",
+          "data_type": "BOOLEAN",
+          "primary_key": false,
+          "unique": false,
+          "not_null": false
+        },
+        {
+          "name": "created_at",
+          "data_type": "TEXT",
+          "primary_key": false,
+          "unique": false,
+          "not_null": false
+        }
+      ]
+    }
+  }
+}

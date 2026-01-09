@@ -1,0 +1,43 @@
+{
+  "schema": {
+    "name": "users",
+    "columns": [
+      {
+        "name": "id",
+        "data_type": "INTEGER",
+        "primary_key": true,
+        "unique": false,
+        "not_null": false
+      },
+      {
+        "name": "name",
+        "data_type": "TEXT",
+        "primary_key": false,
+        "unique": false,
+        "not_null": true
+      },
+      {
+        "name": "email",
+        "data_type": "TEXT",
+        "primary_key": false,
+        "unique": true,
+        "not_null": false
+      }
+    ]
+  },
+  "rows": [
+    {
+      "id": 1,
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "_rowid": 1
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "bob@example.com",
+      "_rowid": 2
+    }
+  ],
+  "next_id": 3
+}
